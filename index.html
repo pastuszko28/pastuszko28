@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Imię Nazwisko — Wizytówka</title>
+  <meta name="description" content="Krótka wizytówka. Imię Nazwisko — krótkie info, kontakt i linki." />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+<body>
+  <main class="card">
+    <img class="avatar" src="avatar.jpg" alt="Twoje imię">
+    <h1 class="name">Imię Nazwisko</h1>
+    <p class="role">Krótki opis / stanowisko (np. frontend dev)</p>
+
+    <section class="about">
+      <h2>O mnie</h2>
+      <p>Tu wklej 1–2 zdania o sobie, co robisz i czego szukasz.</p>
+    </section>
+
+    <section class="contacts">
+      <h2>Kontakt</h2>
+      <ul>
+        <li>Email: <a href="mailto:twoj@email">twoj@email</a></li>
+        <li>Tel: <a href="tel:+48123123123">+48 123 123 123</a></li>
+      </ul>
+    </section>
+
+    <section class="links">
+      <h2>Linki</h2>
+      <ul class="social">
+        <li><a href="https://github.com/twoj-login" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/twoj-login" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://twitter.com/twoj-login" target="_blank" rel="noopener">Twitter</a></li>
+      </ul>
+    </section>
+
+    <footer class="footer">
+      <small>© <span id="year"></span> Imię Nazwisko • <a href="https://github.com/pastuszko28/wizytowka" target="_blank">Repo</a></small>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
