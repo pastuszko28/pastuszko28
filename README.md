@@ -42,8 +42,3 @@ Alternatywa: użyj `gh` CLI:
 ```bash
 gh repo create <twoj-login>/wizytowka --public --source=. --remote=origin --push
 ```
-
-Gotowe! Jeśli chcesz, mogę:
-- wygenerować i wypchnąć pliki za Ciebie (poproszę dostęp / uprawnienia lub polecenia),
-- dodać prosty workflow CI/CD do automatycznego deployu,
-- spersonalizować wygląd (kolory, układ) według Twoich preferencji.
